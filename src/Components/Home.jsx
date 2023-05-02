@@ -1,7 +1,7 @@
 const Home = () => {
 
     return (
-        <div className="bg-slate-800 ">
+        <div className="bg-slate-800 home">
             <div className="xl:flex xl:flex-row xl:justify-between xl:mx-10 xl:h-[603px]">
                 <div className="xl:basis-1/2 xl:flex xl:items-center justify-center">
                     <div>
@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
                 <div className="basis-1/2 xl:flex xl:justify-center xl:items-center">
                     <div>
-                        <img className="h-[450px] shadow-xl" src="https://i.pinimg.com/564x/8f/e1/91/8fe1911709a5f2db43852e8acc174e9d.jpg" alt="" />
+                        <img className="xl:h-[450px]" src="https://i.pinimg.com/564x/8f/e1/91/8fe1911709a5f2db43852e8acc174e9d.jpg" alt="" />
                     </div>
                 </div>
             </div>
