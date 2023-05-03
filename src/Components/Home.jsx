@@ -1,7 +1,7 @@
 const Home = () => {
 
     return (
-        <div className="bg-slate-800 home">
+        <div className="">
             <div className="xl:flex xl:flex-row xl:justify-between xl:mx-10 xl:h-[603px]">
                 <div className="xl:basis-1/2 xl:flex xl:items-center justify-center">
                     <div>

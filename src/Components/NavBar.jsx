@@ -14,7 +14,7 @@ const NavBar = () => {
                         <li className="hover:text-black duration-[0.5s] hover:bg-blue-300 hover:tracking-[0.10em] hover:shadow-lg hover:shadow-blue-300/50 w-[100px] text-center rounded-sm"><a href="#">Home</a></li>
                         <li className="hover:text-black duration-[0.5s] hover:bg-blue-300 hover:tracking-[0.10em] hover:shadow-lg hover:shadow-blue-300/50 w-[100px] text-center rounded-sm"><a href="#">About</a></li>
                         <li className="hover:text-black duration-[0.5s] hover:bg-blue-300 hover:tracking-[0.10em] hover:shadow-lg hover:shadow-blue-300/50 w-[100px] text-center rounded-sm"><a href="#">Education</a></li>
-                        <li className="hover:text-black duration-[0.5s] hover:bg-blue-300 hover:tracking-[0.10em] hover:shadow-lg hover:shadow-blue-300/50 w-[100px] text-center rounded-sm"><a href="#">Skill & Exp</a></li>
+                        <li className="hover:text-black duration-[0.5s] hover:bg-blue-300 hover:tracking-[0.10em] hover:shadow-lg hover:shadow-blue-300/50 w-[100px] text-center rounded-sm"><a href="#">Skill</a></li>
                         <li className="hover:text-black duration-[0.5s] hover:bg-blue-300 hover:tracking-[0.10em] hover:shadow-lg hover:shadow-blue-300/50 w-[100px] text-center rounded-sm"><a href="#">Contact</a></li>
                     </ul>
                 </div>

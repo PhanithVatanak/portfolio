@@ -1,7 +1,7 @@
 const About = () => {
 
     return (
-        <div className="about bg-slate-800 xl:h-screen xl:flex xl:text-center xl:items-center">
+        <div className=" bg-slate-800 xl:flex xl:text-center xl:items-center xl:h-[668px]">
             <div className="">
                 <div>
                     <div className="my-8">
