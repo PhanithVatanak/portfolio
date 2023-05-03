@@ -1,7 +1,7 @@
 const Contact = () => {
 
     return (
-        <div className="xl:flex xl:justify-center xl:h-[666px]">
+        <div className="bg-slate-800 xl:flex xl:justify-center xl:h-[666px]">
             <div className="w-[600px]">
                 <h1 className="text-center my-10 text-gray-300 font-bold text-[30px]">CONTACT ME</h1>
                 <div className="border-[1px] w-full h-[395px]">

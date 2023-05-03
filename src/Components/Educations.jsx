@@ -1,7 +1,7 @@
 const Education = () => {
 
     return (
-        <div className="xl:h-[666px] xl:flex xl:justify-center">
+        <div className="bg-slate-800 xl:h-[666px] xl:flex xl:justify-center">
             <div className="w-[800px]">
                 <h1 className="text-center my-10 text-gray-300 font-bold text-[30px]">MY JOURNEY</h1>
                 <div className="xl:flex xl:flex-row xl:justify-between">

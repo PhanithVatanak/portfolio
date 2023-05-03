@@ -9,9 +9,9 @@ import Contact from "./Components/Contact"
 function App() {
 
   return (
-
+    <>
       <div className="bg-slate-900 xl:flex xl:justify-center xl:h-full">
-        <div className="">
+        <div className="xl:w-[1300px]">
           <NavBar/>
           <Home/>
           <About />
@@ -20,6 +20,7 @@ function App() {
           <Contact />
         </div>
       </div>
+    </>
   )
 }
 
