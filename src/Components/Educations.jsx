@@ -1,11 +1,11 @@
 const Education = () => {
 
     return (
-        <div className="bg-slate-800 xl:h-[666px] xl:flex xl:justify-center">
-            <div className="w-[800px]">
+        <div className="bg-slate-800 h-[1000px] flex justify-center sm:h-[1010px] sm:flex sm:justify-center md:h-[1010px] md:flex md:justify-center lg:h-[666px] lg:flex lg:justify-center">
+            <div className="w-[330px] sm:w-[580px] md:w-[660px] lg:w-[800px]">
                 <h1 className="text-center my-10 text-gray-300 font-bold text-[30px]">MY JOURNEY</h1>
-                <div className="xl:flex xl:flex-row xl:justify-between">
-                    <div className="basis-1/2 xl:mr-5">
+                <div className="md:block lg:flex lg:flex-row lg:justify-between">
+                    <div className="basis-1/2 my-5 lg:mr-5">
                         <h1 className="text-gray-300 font-bold text-[22px] mb-5">EDUCATIONS</h1>
                         <div className="border-[2px] h-24 rounded-lg border-blue-300 my-3">
                             <div className="flex m-2">
@@ -48,7 +48,7 @@ const Education = () => {
                         </div>
 
                     </div>
-                    <div className="basis-1/2 xl:mr-5">
+                    <div className="basis-1/2 my-5 lg:mr-5">
                         <h1 className="text-gray-300 font-bold text-[22px] mb-5">EXPERIENCES</h1>
                         <div className="border-[2px] h-24 rounded-lg border-blue-300 my-3">
                             <div className="flex m-2">
