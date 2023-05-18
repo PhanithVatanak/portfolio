@@ -1,24 +1,27 @@
+import MY_PIC from '../assets/IMG_2930.jpg'
+
+
 const Home = () => {
 
     return (
-        <div className="bg-slate-800 ">
+        <div id="home" className="bg-slate-800 ">
             <div className="flex flex-col justify-center mx-2 h-[850px] sm:flex sm:flex-row sm:justify-between sm:mx-4 sm:h-[400px] md:flex md:flex-row md:justify-between md:mx-10 md:h-[500px] lg:flex lg:flex-row lg:justify-between lg:mx-10 lg:h-[603px]">
                 <div className="basis-1/2 flex items-center justify-center sm:basis-1/2 sm:flex sm:items-center sm:justify-center md:basis-1/2 md:flex md:items-center md:justify-center lg:basis-1/2 lg:flex lg:items-center lg:justify-center">
                     <div>
                         <div className="my-5 md:my-5">
                             <div className="my-5 md:my-5">
-                                <h1 className="text-gray-300 text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] font-semibold">Hi, I am PhanithVataNak</h1>
-                                <h2 className="text-gray-300 text-[17px] lg:text-[22px] font-semibold">Web Developer</h2>
+                                <h1 className="font-navFont text-gray-300 text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] font-semibold">Hi, I am PhanithVataNak</h1>
+                                <h2 className="font-navFont text-gray-300 text-[17px] lg:text-[22px] font-semibold">Web Developer</h2>
                             </div>
                             <p className="text-gray-300 sm:w-[350px] sm:text-[9.5px] md:text-[10px] lg:text-[15px]">A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server. HTTP is used for communications between client and server.</p>
                         </div>
                         <div className="flex w-full justify-between my-4 sm:flex sm:w-1/2 sm:justify-between sm:my-4 md:flex md:w-1/2 md:justify-between md:my-10 lg:flex lg:w-1/2 lg:justify-between lg:my-10">
-                            <div className="w-[150px] h-8 mx-2 sm:w-[190px] sm:h-8 sm:mx-2 md:w-[170px] md:h-10 md:mx-2 lg:w-[130px] lg:h-10 border-[1px] border-gray-700 duration-[0.5s] rounded-md">
+                            <div className="w-[150px] h-8 mx-2 sm:w-[190px] sm:h-8 sm:mx-2 md:w-[200px] md:h-10 md:mx-2 lg:w-[250px] lg:h-10 border-[1px] border-gray-700 duration-[0.5s] rounded-md">
                                 <a href="#" className="w-full h-full flex justify-center items-center text-gray-300 border-gray-700 text-[15px] font-semibold rounded-md relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-blue-300 before:scale-x-0 before:transition-transform before:origin-left before:duration-500 hover:text-black hover:font-semibold hover:before:scale-x-100 hover:rounded-md">
                                     <span className="z-10">Talk</span>
                                 </a>
                             </div>
-                            <div className="w-[150px] h-8 mx-2 sm:w-[190px] sm:h-8 sm:mx-2 md:w-[170px] md:h-10 md:mx-2 lg:w-[130px] lg:h-10 border-[1px] border-gray-700 bg-blue-300 flex justify-center items-center duration-[0.5s] rounded-md">
+                            <div className="w-[150px] h-8 mx-2 sm:w-[190px] sm:h-8 sm:mx-2 md:w-[200px] md:h-10 md:mx-2 lg:w-[250px] lg:h-10 border-[1px] border-gray-700 bg-blue-300 flex justify-center items-center duration-[0.5s] rounded-md">
                                 <a href="#" className="w-full h-full flex justify-center items-center text-black text-[15px] font-semibold rounded-md relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gray-700 before:scale-x-0 before:transition-transform before:origin-left before:duration-500 hover:text-gray-300 hover:font-semibold hover:before:scale-x-100">
                                     <span className="z-10">Hire me</span>
                                 </a>
@@ -45,7 +48,7 @@ const Home = () => {
                 </div>
                 <div className="basis-1/2 sm:basis-1/2 sm:flex sm:justify-center sm:items-center">
                     <div>
-                        <img className="lg:h-[450px]" src="https://i.pinimg.com/564x/8f/e1/91/8fe1911709a5f2db43852e8acc174e9d.jpg" alt="" />
+                        <img className="lg:h-[450px] rounded-md" src={MY_PIC} alt="" />
                     </div>
                 </div>
             </div>

@@ -2,9 +2,9 @@ const Skill = () => {
 
 
     return (
-        <div className="bg-slate-800 h-[1250px] flex justify-center sm:h-[1250px] sm:flex sm:justify-center md:h-[1250px] md:flex md:justify-center lg:h-[670px] lg:flex lg:justify-center lg:items-center">
+        <div className="skill bg-slate-800 h-[1250px] flex justify-center sm:h-[1250px] sm:flex sm:justify-center md:h-[1250px] md:flex md:justify-center lg:h-[670px] lg:flex lg:justify-center lg:items-center">
             <div className="w-[345px] sm:w-[600px] md:w-[700px] lg:w-[1100px]">
-                <h1 className="text-center my-10 text-gray-300 font-bold text-[30px]">SKILL</h1>
+                <h1 className="text-center my-10 text-gray-300 font-bold text-[30px] font-navFont">SKILL</h1>
                 <div className="lg:flex lg:flex-row lg:justify-between">
                     <div className="basis-1/3 mx-2 my-5">
                         <h1 className="text-gray-300 font-bold text-[22px] mb-5">FRONTEND</h1>

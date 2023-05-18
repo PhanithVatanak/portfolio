@@ -6,6 +6,7 @@ import Skill from "./Components/Skill"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
 
+
 function App() {
 
   return (
@@ -16,14 +17,14 @@ function App() {
             <NavBar/>
           </div>
           <div className="">
-            <Home/>
-            <About />
-            <Education />
-            <div className="relative">
-              <Skill />
+              <Home />
+              <About />
+              <Education />
+              <div className="static">
+                <Skill />
+              </div>
               <Contact />
               <Footer />
-            </div>
           </div>
         </div>
       </div>

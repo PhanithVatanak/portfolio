@@ -1,9 +1,9 @@
 const Education = () => {
 
     return (
-        <div className="bg-slate-800 h-[1000px] flex justify-center sm:h-[1010px] sm:flex sm:justify-center md:h-[1010px] md:flex md:justify-center lg:h-[666px] lg:flex lg:justify-center">
+        <div className="education bg-slate-800 h-[1000px] flex justify-center sm:h-[1010px] sm:flex sm:justify-center md:h-[1010px] md:flex md:justify-center lg:h-[666px] lg:flex lg:justify-center">
             <div className="w-[330px] sm:w-[580px] md:w-[660px] lg:w-[800px]">
-                <h1 className="text-center my-10 text-gray-300 font-bold text-[30px]">MY JOURNEY</h1>
+                <h1 className="text-center my-10 text-gray-300 font-bold text-[30px] font-navFont">MY JOURNEY</h1>
                 <div className="md:block lg:flex lg:flex-row lg:justify-between">
                     <div className="basis-1/2 my-5 lg:mr-5">
                         <h1 className="text-gray-300 font-bold text-[22px] mb-5">EDUCATIONS</h1>

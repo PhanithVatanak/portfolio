@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      navFont: ['Instrument Serif', 'serif']
+      navFont: ['Domine', 'serif'],
+      primaryFont : ['Sansita', 'sans-serif']
     }
   },
   plugins: [],
